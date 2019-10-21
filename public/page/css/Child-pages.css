@@ -1,0 +1,206 @@
+@charset "utf-8";
+/*訂單記錄*/
+.bill { padding-left:10px; background:#fff; margin-top:48px;}
+.bill-box { padding:10px 0; border-bottom:1px solid #dedede;}
+.bill a:last-child .bill-box { border-bottom:none;}
+.bill-time { float:left; margin-top:4px;}
+.bill-time>div { text-align:center; width:46px; font-size:12px; line-height:20px; color:#aaa;}
+.bill-time .min {font-size:13px;}
+.bill-box img { height:36px; width:36px; border-radius:999px; margin:0 14px; float:left; margin-top:6px;}
+.bill-message span { display:block; line-height:24px; margin-left: 110px;}
+.bill-message span:first-child { font-size:16px;}
+.bill-message span:last-child { font-size:12px; color:#666;}
+/*訂單詳細*/
+.detail-box { border-bottom:1px solid #dedede; border-top:1px solid #dedede; background:#fff; margin-bottom:10px; padding:0 10px; margin-top:48px;}
+.detail-box:first-child { border-top:none;}
+.detail-number { font-size:30px; padding-top: 22px; border-top:1px solid #dedede; text-align:center;}
+.detail-number span { font-size:14px; display:block; line-height:24px; padding:4px 0 14px 0;}
+.detail-company { display:block; padding:10px 0; position:relative;}
+.detail-company i { position:absolute; top:26px; right:12px; font-size:22px; color:#bababa;}
+.detail-company img { height:48px; border-radius:999px; float:left; margin-right:10px;}
+.detail-company h3 { line-height:48px; font-size:14px;}
+.detail-box ul { padding:4px 0;}
+.detail-box li { border-bottom:1px solid #dedede;}
+.detail-box li:last-child { border:none;}
+.detail-box li>span { line-height:40px; display:inline-block; font-size:12px; color:#999;}
+.detail-box li>span:first-child { padding-right:10px; text-align: justify; text-justify:inter-word; width:70px;}
+.comment-buttom { line-height:34px; text-align:center; display:block; font-size:14px; width:95%; margin:6px auto; border:1px solid #ddd; border-radius:4px; font-weight:bold; color:#666;}
+/*積分商城*/
+.integral-box { background:#fff; padding:10px; margin:0 0 10px; border-bottom:1px solid #dedede;}
+.integral-box:last-child { background:none; padding:0 0 50px; margin:0; border:none; overflow:auto;}
+.mypoints span { font-size:12px; line-height:32px; font-size:16px; float:left;}
+.mypoints span:last-child { color:#ff6000; margin-left:6px;}
+.pt-record { float:right; line-height:32px; border:1px solid #dedede; border-radius:4px; padding:0 10px;}
+.integral-box ul a{ width:49%; background:#fff; padding:10px; float:left; margin-bottom:2%; line-height:20px; border-bottom:1px solid #E0E0E0;}
+.integral-box ul a:nth-child(2n) {margin-left:2%; float:left}
+.integral-box li h1 { font-size:14px;}
+.integral-box li>span { font-size:12px; color:#999;}
+.integral-box li h3 { font-size:14px; color:#ff6000; padding:0 0 4px;}
+.integral-box li h3 span{ font-size:12px; padding-left:3px;}
+.integral-box li img { width:100%;}
+/*積分商城详细*/
+.detail-info { background:#fff; padding:6px 10px; border-bottom:1px solid #dedede; margin-bottom:60px;}
+.detail-info-name { font-size:14px; font-weight:400; margin:3px 0;}
+.detail-info-pt { font-size:16px; color: #ff6000; margin-bottom:12px;}
+.detail-info-pt span { font-size:12px; color:#999; margin-left:3px;}
+.introduction { margin:0 0 8px;}
+.process {}
+.exchange { width:96%; text-align:center; border-radius:6px; background:#F90; color:#fff !important; display:block; line-height:36px; margin:6px 2% 0; font-size:14px;}
+/*商家主頁*/
+.seller-info { position:relative;}
+.seller-info-box { background:#fff; border-bottom:1px solid #dedede; position:relative; padding:20px; height: 136px;}
+.seller-logo { width: 96px; height: 96px; float: left;}
+.seller-info-name { font-size:38px; font-weight:400; margin:3px 0; padding:0 0 0 116px;}
+.seller-info-no { font-size:20px; color: #999; padding: 8px 12px 8px 116px;}
+.seller-collect { position:absolute; right:26px; top:40px; text-align:center; z-index:90; font-size:20px;}
+.seller-collect i { width:34px; height:34px; display:block; background-size:100%; background-repeat:no-repeat; margin:auto;}
+.seller-info-box2 { background:#fff;  margin:20px 0 0; border-bottom:1px solid #dedede}
+.seller-info-title { padding:22px; font-size:24px; border-bottom:1px solid #dedede;}
+.seller-info-text { padding:22px; font-size:22px;}
+.seller-info-box2 .information li{ line-height:76px; margin-left:20px; border-bottom:1px solid #dedede; font-size:22px;}
+.seller-info-box2 .information li a { display:block; font-size: 22px;}
+.seller-info-box2 .information li a img{ float:right; width: 16px; margin: 24px 20px 0 0;}
+.seller-info-box2 .information li:last-child { border:none;}
+.map { width:100%; font-size:12px; display:block; position:relative;}
+.map .fa-angle-right { position:absolute; right:12px; top:9px; font-size:22px; color:#bababa; margin:0 !important;}
+.row { padding:0px 0px 20px;}
+/*文章*/
+.article { background:#fff; padding: 20px 15px 15px; margin:48px 0 0 0;}
+.article-title { margin-bottom:10px; line-height:33.6px; font-weight:400; font-size:24px;}
+.article-time { color:#8c8c8c; font-size:16px; margin-bottom:10px; margin-right:8px;}
+.editor { margin:18px 0 0;}
+/*商家登錄*/
+.login { padding:16px 0 0 0; margin:48px 0 60px;}
+.login-input { border-bottom:1px solid #dedede; line-height:48px; padding:0 4%; background:#fff; font-size:14px;}
+.login-input:first-child { border-top:1px solid #dedede;}
+.login-input span { width:18%; display:inline-block;}
+.login-input input { line-height:32px; width:82%; font-size: 14px;}
+.login-buttom { display:block; width:96%; line-height:40px; background:#E46713; color:#fff; font-size:14px; border-radius:6px; margin:30px auto 0; text-align:center;}
+/*個人中心*/
+.membership {}
+.membership-box { margin-bottom:10px;}
+.membership-box:last-child { margin-bottom:50px;}
+.membership-account { background-color:#e46713; height:120px; padding:30px 0 30px 20px; background-image:url(images/turn-right-w.png); background-repeat:no-repeat; background-position:96% center; background-size:12px	 auto;}
+.membership-account img { width:60px; vertical-align:middle; float:left;}
+.membership-name { color:#fff; font-size:18px; margin:10px 0 0 10px; float:left;}
+.membership-nav { text-align:center; background:#fff; font-size:0;}
+.membership-nav div { width:33.3%; border-right:1px solid #dedede; background:#fff; display:inline-block; padding:10px 0;}
+.membership-nav div span { display:block; line-height: 22px;}
+.membership-nav div span:first-child { font-size:16px;}
+.membership-nav div span:last-child { font-size:12px;}
+.membership-nav div:last-child { border:none;}
+.membership-nav-1 a { background:#fff;font-size: 14px; line-height:40px; padding:0 10px; background-image:url(images/turn-right.png); background-repeat:no-repeat; background-position: 96% center ; background-size: 8px auto; border-bottom:1px solid #dedede; display:block;}
+.membership-nav-1 a:last-child { border:none;}
+/*地址*/
+.address { margin:48px 0 60px;}
+.address li { background:#fff; position:relative;}
+.address li a { padding:14px; display:block; position:relative; border-bottom: 1px solid #ddd;}
+.address-name { float:left; font-size:16px; margin-right:10px;  padding:0 0 8px;}
+.address-tel { line-height: 23px; font-size:16px; padding:0 0 8px;}
+.address-add {    font-size: 12px;color: #666;width: 85%;}
+.address-add span { background:#DE8225; color:#fff; padding:1px 4px; border-radius:4px; margin:0 6px 0 0;}
+.address-added { display:block; width:100%; text-align:center; line-height:48px; font-size:14px; color:#DE8225;}
+.address form{ margin:10px 0 0 0;}
+.address-box { background:#fff; padding:0 12px; height:40px; border-bottom:1px solid #dedede; line-height:40px;}
+.address-box span { display:inline-block; width:62px; font-size: 14px;}
+.address-box input[type='text'] { line-height:32px; font-size: 14px; width:200px;}
+.address-buttom { display:block; width:96%; height:40px; line-height:40px; font-size:16px; color:#fff; background:#F90; text-align:center; border-radius:4px; margin:20px auto 0;}
+.address-icon { position:absolute; top:22%; right:4%;}
+.address-icon a { border:none !important; }
+.address-icon i { font-size:14px;}
+/*商家分類*/
+.classification-nav { height:48px; background:#fff; position:fixed; border-bottom:1px solid #dedede; top:0; left:0; width:100%; z-index: 99;}
+.classification-title { width:33%; text-align:center; line-height:38px; margin:5px 0 0 0; border-right:1px solid #dedede; float:left; position:relative; font-size: 12px;}
+.classification-list {  border-bottom: 1px solid #dedede; position:absolute; top:48px; left:0; width:100%; min-height:320px; background:#fff; z-index:9999;}
+.classification-title i{ border-top:5px solid #999; border-left:5px solid transparent; border-right:5px solid transparent; position:absolute; top:17px; right:24%;}
+.classification-title i.clicked {border-top:none; border-bottom:5px solid #999;}
+.classification-nav-1 { width:50%; background:#f2f2f2; height:320px; overflow:auto; float:left;}
+.classification-nav-1 li{ line-height:48px; padding-left:12px; font-size:14px; position:relative}
+.classification-nav-1 li a{display: block;width: 100%}
+.classification-nav-1 li i { position:absolute; top:20px; right:12px; display:block; border-top:1px solid #949494; border-right:1px solid #949494; width:8px; height:8px;
+transform:rotate(45deg); -ms-transform:rotate(45deg); -moz-transform:rotate(45deg); -webkit-transform:rotate(45deg); -o-transform:rotate(45deg);}
+.classification-nav-1 li.active { background:#fff;}
+.classification-nav-2 { width:50%; height:320px; float:left; overflow:auto; background: #fff;}
+.classification-nav-2 li { display:none;}
+.classification-nav-2 li a { display:block; line-height:48px; border-bottom:1px solid #dedede; margin-left:12px; font-size:14px;}
+.classification-nav-2 li a.active { color:#DE8225;}
+.classification-box { margin:48px 0 60px;}
+.classification-box li { padding:12px; background:#fff; border-bottom:1px solid #ddd; position:relative;}
+.classification-box img { float:left; width:26%; margin-right:12px;}
+.classification-box-name { font-size:16px; margin-bottom:6px; height: 22px; overflow: hidden;}
+.classification-box-id { font-size:14px; margin-bottom:4px; color:#949494; height:40px;}
+.classification-box-rebate {}
+.classification-box li .keyNav { position:absolute; right:0; bottom:0; padding:12px; color:#e36713;}
+.classification-box-distance { color:#949494; font-size:14px;}
+/*评论*/
+.evaluate { background:#fff;}
+.evaluate-nav { height:48px; padding:0 0 0 10px; margin-top:10px;}
+.evaluate-nav>div { margin:9px 8px 0 0; height:30px; float:left; line-height:30px; text-align:center; width:60px; border:1px solid #ccc; border-radius:6px;}
+.evaluate-info { border-top:1px solid #dedede; padding-left:10px;}
+.evaluate-info li { padding:10px 0; border-bottom:1px solid #dedede;}
+.evaluate-info li:last-child { border:none;}
+.evaluate-avatar { float:left; width:30px; height:30px; margin-right:10px;}
+.evaluate-avatar img { width:30px; height:30px; border-radius:300px;}
+.evaluate-box {}
+.evaluate-name { float:left;}
+.evaluate-time { float:right; padding-right:10px;}
+.evaluate-box-2 { padding-left: 40px; padding-right:10px;}
+.evaluate-business { width:100%; background:#eee; border-radius:6px; padding:10px 0 10px 10px; margin-top:10px; position:relative;}
+.evaluate-business i { width: 0; height: 0; border-left: 4px solid transparent; border-right: 4px solid transparent; border-bottom: 6px solid #eee; position:absolute; top:-6; left:10px;}
+.star { margin-left:40px; margin-top:-10px; color: #FF9800; font-size: 14px;}
+/*兌換記錄*/
+.exchange-record {}
+.exchange-record li { padding:10px; border-bottom:1px solid #dedede; background:#fff;}
+.exchange-record li a { display:block;}
+.exchange-record li img { width:130px; float:left; margin-right:10px;}
+.exchange-record li h1 { font-size:14px; margin-bottom:8px;}
+.exchange-record-pt { font-size:14px; color:#999; margin-bottom:8px;}
+.exchange-record-pt span { font-size:12px; margin-left:3px;}
+/*兌換商品內容*/
+.exchange-ware { margin-top:48px;}
+.exchange-box { padding:10px; border-bottom:1px solid #dedede; background:#fff; display:block; margin-bottom:12px; position:relative;}
+.exchange-ware .exchange-img { width:33%; float:left; margin-right:10px; height:70px; background-size:100% auto; background-repeat:no-repeat; background-position:center;}
+.exchange-box .float_left { width:50%;}
+.exchange-box .float_left i { position:absolute; right:12px; top:32px; font-size:20px; color:#999;}
+.exchange-ware-title { font-size:14px; margin:8px 0;}
+.exchange-express { padding:12px;}
+.exchange-express div { font-size:16px; margin-bottom:8px;}
+.exchange-express i { right:2%; top:32%; font:14px;}
+/*我的收藏*/
+.collect {}
+.collect li { height:150px; background:#fff; padding:20px; position:relative; border-bottom:1px solid #ddd;}
+.collect li a>img { width:110px; float:left; height:110px; margin-right:20px;}
+.collect-name { font-size:30px; margin-bottom:8px; margin-top:6px;}
+.collect-time { position:absolute; top:26px; right:20px;  color:#718bfa; padding:4px 6px; font-size: 24px;}
+.collect-star { color:#f1a700; margin-bottom:8px;}
+.collect-number { position: relative;color:#999;}
+.collect-number2 {
+    float: none; /* Don't float this column... */
+    overflow: hidden; /* ... Create a new block formatting context instead */
+    padding-right: 10px;
+    word-wrap: break-word;
+}
+.collect-cancel { position:absolute; top:26px; right:20px; border:1px solid #718bfa; color:#718bfa; border-radius:2px; padding:4px 6px; font-size: 24px;}
+/*積分商品詳細*/
+.detail-banner { margin-top:48px;}
+/*彈框*/
+.prompt { display:none;}
+.prompt-box { position:fixed; top:30%; left:50%; width:90%; margin-left:-45%; background:#fff; border-radius:5px; padding:12px; z-index:999; text-align:center;}
+.prompt-title { color:#555; font-size:14px; line-height:36px; border-bottom:1px solid #eee;}
+.prompt-text { padding-top:12px; padding-bottom:30px; color:#787878; font-size:14px;}
+.prompt-buttom {}
+.prompt-buttom a { display:inline-block; width:30%; height:34px; color:#fff; line-height:34px; border-radius:6px; margin:0 4px;}
+.cancel { background:#c1c1c1;}
+.confirm { background:#F90;}
+
+.prompt-2 { display:none;}
+
+.prompt-3 { top:20%;}
+.prompt-add { height:200px; overflow:auto; margin-bottom:24px;}
+.prompt-add li { border-bottom:1px solid #eee; text-align:left; padding:12px 0; position:relative;}
+.prompt-add li input[type="radio"] { position:absolute; right:10px; top:24px; width:20px; height:20px;}
+
+.help { text-align:left; color: #999;}
+.help i { color:#999; margin-right:4px;}
+
+.prompt-bg { position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,.4); z-index:99;}
